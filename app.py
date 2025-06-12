@@ -357,7 +357,7 @@ st.set_page_config(page_title="NASA engines RUL predictions", layout="wide")
 st.header("NASA engines RUL predictions")
 with st.expander("Dataset"):
     url = "https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data"
-    notebook_repo = ""
+    notebook_repo = "https://github.com/suchitakulkarni/DataScience/blob/main/NASA_RUL_predictions/RUL_timeseries_XGBoost.ipynb"
     st.write("The data has been provided by NASA and is available [here](%s)" % url)
     st.write("This project uses only one of the four available datasets")
     st.write("Software stack: pandas, numpy, plotly, sklearn, XGBoost, Optuna")
